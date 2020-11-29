@@ -36,4 +36,6 @@ Next if you sync to origin remote repo
 git push origin your_branch
 ```
 
+**Notes**: if problem for your push dont forget update your branch for upstream repo see this [link](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork)
+
 If all complete next open github and then make your pull request
