@@ -1,9 +1,18 @@
-kd=raw_input ("kode jurusan=")
-if kd=="SI":
-	print "sistem informasi"
+nb=raw_input("Nama barang=")
+bb=input("Banyak barang=")
+hb=input("Harga barang=")
+
+byr=bb*hb
+if byr<100000:
+	tby=byr
+	print"Total bayar=",byr
+
+if byr>100000 and byr<=300000:
+	tby=byr-(byr*0.05)
+	print"Total bayar=",byr
 	
-if kd=="TI":
-	print "teknik informatika"
+if byr>300000:
+	tby=byr-(byr*0.01)
+	print"Total bayar=",byr
 	
-else:
-	print "sistem komputer"
+	
