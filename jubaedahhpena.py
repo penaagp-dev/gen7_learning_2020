@@ -1,3 +1,4 @@
+#Perubahan 1
 print ("\t aplikasi kalkulator sederhana")
 
 def penjumlahan(a,b):
